@@ -1,7 +1,7 @@
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 
 NotificationLibrary:SendNotification("Warning", "Đang Tải...", 10)
-NotificationLibrary:SendNotification("Warning", "Enable Fast Mode Or Fix Lag For Use Script Smoother", 10)
+NotificationLibrary:SendNotification("Warning", "YouTube: Turbo Lite ", 10)
 
 -- join team
 if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
@@ -2332,19 +2332,19 @@ local Window = Fluent:CreateWindow({
 
 -- Fluent provides Lucide Icons https://lucide.dev/icons/ for the tabs, icons are optional
 local Tabs = {
-    Sh = Window:AddTab({ Title = "Shop", Icon = "" }),
-    Main = Window:AddTab({ Title = "Farm", Icon = "" }),
-    Qs = Window:AddTab({ Title = "Farm Item", Icon = "" }), 
-    stack = Window:AddTab({ Title = "Cày 3", Icon = "" }), 
-    Se = Window:AddTab({ Title = "Sự Kiện Biển", Icon = "" }),   
-    St = Window:AddTab({ Title = "Trạng Thái Máy Chủ", Icon = "" }),    
-    Lc = Window:AddTab({ Title = "Dịch Chuyển", Icon = "" }),   
-    spl = Window:AddTab({ Title = "Trạng Thái Người Chơi", Icon = "" }),   
-    RC = Window:AddTab({ Title = "Tộc V4", Icon = "" }),
-    raid = Window:AddTab({ Title = "Thức Tỉnh", Icon = "" }),
-    De = Window:AddTab({ Title = "Trái Cây", Icon = "" }),    
-    Ms = Window:AddTab({ Title = "Khác", Icon = "" }),   
-    Settings = Window:AddTab({ Title = "Cài Đặt", Icon = "" }),
+    Sh = Window:AddTab({ Title = "Tah Shop", Icon = "" }),
+    Main = Window:AddTab({ Title = "Tab Farm", Icon = "" }),
+    Qs = Window:AddTab({ Title = "Tab item", Icon = "" }), 
+    stack = Window:AddTab({ Title = "Tab Quest ", Icon = "" }), 
+    Se = Window:AddTab({ Title = "Tab Sea Event", Icon = "" }),   
+    St = Window:AddTab({ Title = "Tab Server", Icon = "" }),    
+    Lc = Window:AddTab({ Title = "Tab Teleport", Icon = "" }),   
+    spl = Window:AddTab({ Title = "Tab Status", Icon = "" }),   
+    RC = Window:AddTab({ Title = "Auto V4", Icon = "" }),
+    raid = Window:AddTab({ Title = "Tab Raid", Icon = "" }),
+    De = Window:AddTab({ Title = "Tab Fruit", Icon = "" }),    
+    Ms = Window:AddTab({ Title = "", Icon = "Tab Index" }),   
+    Settings = Window:AddTab({ Title = "Setting", Icon = "" }),
 }
 local Options = Fluent.Options
 do
